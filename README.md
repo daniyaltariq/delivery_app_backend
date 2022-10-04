@@ -15,7 +15,7 @@ I have used `OOP` concept to create classes for models and use them in APIs. I h
 
 These are some APIs mentioned bellow which is being used throught our current application but still there's room for improvements like (use status codes in error handling and etc).
 
-1. POST `http://localhost/code_challange_2/api/user/auth.php`
+1. POST `https://backend.comics.ml/api/user/auth.php`
 > payload:
 ```
 {
@@ -23,9 +23,9 @@ These are some APIs mentioned bellow which is being used throught our current ap
   "password": "admin"
 }
 ```
-2. GET `http://localhost/code_challange_2/api/user/readDispatcher.php`
-3. GET `http://localhost/code_challange_2/api/user/read.php`
-4. POST `http://localhost/code_challange_2/api/parcel/read.php`
+2. GET `https://backend.comics.ml/api/user/readDispatcher.php`
+3. GET `https://backend.comics.ml/api/user/read.php`
+4. POST `https://backend.comics.ml/api/parcel/read.php`
 > payload:
 ```
 {
@@ -33,7 +33,7 @@ These are some APIs mentioned bellow which is being used throught our current ap
 }
 ```
 
-5. POST `http://localhost/code_challange_2/api/parcel/create.php`
+5. POST `https://backend.comics.ml/api/parcel/create.php`
 > payload:
 ```
 {
@@ -51,7 +51,7 @@ These are some APIs mentioned bellow which is being used throught our current ap
 }
 ```
 
-6. POST `http://localhost/code_challange_2/api/parcel/delete.php`
+6. POST `https://backend.comics.ml/api/parcel/delete.php`
 > payload:
 ```
 {
@@ -59,7 +59,7 @@ These are some APIs mentioned bellow which is being used throught our current ap
 }
 ```
 
-7. POST `http://localhost/code_challange_2/api/parcel_track_history/create.php`
+7. POST `https://backend.comics.ml/api/parcel_track_history/create.php`
 > payload: 
 ```
 {
